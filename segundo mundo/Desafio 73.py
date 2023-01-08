@@ -1,0 +1,15 @@
+bra = ('Corinthians ', 'Peppas ', 'Santos ', 'Grêmio', 'Cruzeiro', 'Flamengo', 'Vasco','Chapecoense', 'Atlético MG',
+       'Botafogo', 'Atlético PR', 'Bahia', 'Chupaulo', 'Fluminense', 'Sport', 'Vitória', 'Coritiba', 'Avaí', 'Ponte Preta',
+       'Atlético GO')
+print('Times brasileiros Série A')
+print(f'Colocação da Chapecoense é {bra.index("Chapecoense") + 1}ª Posição')
+print('==' * 136)
+print(f'todos os times do Brasileirão é {bra [0:]}')
+print('==' * 136)
+print(f'Os 5 primeiros times do Brasileirão são {bra [0:5]}')
+print('==' * 136)
+print(f' os quatro ultimos times do Brasileirão é {bra [16:21]}')
+print('==' * 136)
+print('os times em ordem alfabética', end= ' ')
+print(sorted(bra))
+print('==' * 136)
